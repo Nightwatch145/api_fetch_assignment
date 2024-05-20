@@ -1,5 +1,5 @@
-import 'package:api_fetch_assignment/photo_details.dart';
-import 'package:api_fetch_assignment/photo_model.dart';
+import 'package:api_fetch_assignment/View/photo_details.dart';
+import 'package:api_fetch_assignment/Model/photo_model.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
@@ -36,7 +36,7 @@ class _PhotoListScreenState extends State<PhotoListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Photo Gallery'),
+        title: const Text('Photo Gallery App'),
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
       ),

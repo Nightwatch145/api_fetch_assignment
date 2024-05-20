@@ -1,4 +1,4 @@
-import 'package:api_fetch_assignment/photo_gallery_screen.dart';
+import 'package:api_fetch_assignment/View/photo_gallery_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
